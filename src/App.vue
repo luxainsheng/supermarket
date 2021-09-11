@@ -1,21 +1,22 @@
 <template>
   <div id="app">
-    <router-view/>
-    <main-tar-bar/>
+    <keep-alive exclude="Detail">
+      <router-view />
+    </keep-alive>
+    <main-tar-bar />
   </div>
 </template>
-
+ 
 <script>
-  import MainTarBar from './components/content/maintarbar/MainTarBar.vue'
+import MainTarBar from "./components/content/maintarbar/MainTarBar.vue";
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    MainTarBar
-
-  }
-}
+    MainTarBar,
+  },
+};
 </script>
 
 <style>
-  @import "./assets/css/base.css";
+@import "./assets/css/base.css";
 </style>
