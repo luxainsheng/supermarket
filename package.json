@@ -21,11 +21,8 @@
   },
   "description": "## Project setup ``` npm install ```",
   "main": "babel.config.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/luxainsheng/supermarket.git"
-  },
-  "author": "",
+  "repository": "git+https://github.com/luxainsheng/supermarket.git",
+  "author": "luxiansheng <“email@email.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/luxainsheng/supermarket/issues"
